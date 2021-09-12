@@ -11,7 +11,7 @@ license=("GPL")
 makedepends=('mingw-w64-configure' 'autogen' 'git')
 depends=('mingw-w64-crt')
 options=('!strip' '!buildflags' 'staticlibs')
-source=("git+https://git.xiph.org/libao.git#commit=3f4b02f046550aca54d7f11a5d9c56ac421f0b66")
+source=("git+https://gitlab.xiph.org/xiph/libao.git#commit=3f4b02f046550aca54d7f11a5d9c56ac421f0b66")
 md5sums=('SKIP')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
